@@ -1,0 +1,15 @@
+[
+    {
+        "action": {
+            "type": "block",
+            "selector": ""
+        },
+        "trigger": {
+            "url-filter":".*",
+            "resource-type": ["media","popup"],
+            "unless-domain": ["www.linkedin.com","*.linkedin.*", "ca.linkedin.*"]
+
+        }
+    }
+    
+]
